@@ -14,6 +14,27 @@
 nav a {
    text-decoration: none;
    color: #0066cc;
+   margin-right: 15px;
+}
+
+/* تنسيق الجدول ليصبح ممتداً ومرتباً مع حدود خفيفة */
+.schedule-table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 15px;
+   margin-bottom: 20px;
+}
+
+.schedule-table th,
+.schedule-table td {
+   border: 1px solid #ddd;
+   padding: 10px 12px;
+   text-align: left;
+}
+
+.schedule-table th {
+   background-color: #f4f4f4;
+   font-weight: bold;
 }
 
 form input[type="text"],
